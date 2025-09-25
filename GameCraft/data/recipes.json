@@ -1,0 +1,49 @@
+{
+  "gridSize": 3,
+  "recipes": [
+    {
+      "id": "stick",
+      "name": "Băț",
+      "result": { "id": "stick", "count": 2 },
+      "ingredients": [
+        ["wood", null, null],
+        ["wood", null, null],
+        [null, null, null]
+      ],
+      "desc": "Două bucăți de lemn puse vertical devin bețe."
+    },
+    {
+      "id": "axe",
+      "name": "Topor",
+      "result": { "id": "axe", "count": 1 },
+      "ingredients": [
+        ["stone", "stone", null],
+        ["stone", "stick", null],
+        [null, "stick", null]
+      ],
+      "desc": "Piatră și bețe pentru un topor, fix ca in minecraft XD."
+    },
+    {
+      "id": "campfire",
+      "name": "Foc de tabără",
+      "result": { "id": "campfire", "count": 1 },
+      "ingredients": [
+        ["stick", null, "stick"],
+        [null, "fiber", null],
+        ["stick", null, "stick"]
+      ],
+      "desc": "Structură din bețe legată cu fibra."
+    },
+    {
+      "id": "ultimate",
+      "name": "Totemul Victoriei",
+      "result": { "id": "ultimate_totem", "count": 1 },
+      "ingredients": [
+        ["campfire", "axe", "campfire"],
+        ["axe", "campfire", "axe"],
+        ["campfire", "axe", "campfire"]
+      ],
+      "desc": "Combin ce ai acolo pentru victorie."
+    }  
+  ]
+}

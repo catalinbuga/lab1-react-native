@@ -1,0 +1,13 @@
+{
+  "base": [
+    { "id": "wood", "name": "Lemn", "emoji": "🪵", "color": "#8B5A2B", "desc": "Material de bază pentru multe obiecte" },
+    { "id": "stone", "name": "Piatră", "emoji": "🪨", "color": "#777777", "desc": "Dur, bun pentru unelte" },
+    { "id": "fiber", "name": "Fibră", "emoji": "🧵", "color": "#3FAF7D", "desc": "Fire ușoare pentru legături" }
+  ],
+  "items": [
+    { "id": "stick", "name": "Băț", "emoji": "🦯", "color": "#A06D3E", "desc": "Un băț simplu dar util" },
+    { "id": "axe", "name": "Topor", "emoji": "🪓", "color": "#C94C4C", "desc": "Unealtă pentru tăiere" },
+    { "id": "campfire", "name": "Foc de tabără", "emoji": "🔥", "color": "#E25822", "desc": "Căldură și lumină" },
+    { "id": "ultimate_totem", "name": "Totemul Victoriei", "emoji": "🏆", "color": "#D4AF37", "desc": "Obiectul final de câștig" }
+  ]
+}
